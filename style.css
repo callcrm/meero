@@ -631,12 +631,7 @@ h1,h2,h3{
 }
 
 .team-card__top{
-  min-height:62px;
-  background:
-    radial-gradient(circle at 20% 30%, rgba(255,255,255,.18) 1px, transparent 1px),
-    radial-gradient(circle at 80% 60%, rgba(255,255,255,.12) 1px, transparent 1px),
-    #11131a;
-  background-size:24px 24px, 26px 26px, auto;
+    padding: 5px;
 }
 
 .team-card__body{
@@ -647,7 +642,7 @@ h1,h2,h3{
   text-align:center;
   margin-bottom:12px;
   font-weight:600;
-  font-size:18px;
+  font-size:20px;
 }
 
 .team-grid{
