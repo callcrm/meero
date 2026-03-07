@@ -82,7 +82,7 @@ h1,h2,h3{
   min-height:54px;
   display:flex;
   align-items:center;
-  justify-content:space-between;
+      justify-content: center;
   gap:14px;
 }
 
