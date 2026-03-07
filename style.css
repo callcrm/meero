@@ -598,14 +598,14 @@ h1,h2,h3{
 
 .workflow-wrapper{
   padding-top:10px;
-  padding-bottom:10px;
+     padding-bottom: 85px;
 }
 
 .workflow-grid{
   display:grid;
   grid-template-columns:1fr 1fr;
   gap:16px;
-  align-items:start;
+      align-items: center;
 }
 
 .logo-row{
@@ -704,7 +704,7 @@ h1,h2,h3{
 
 .compact-card__visual{
   padding:14px;
-  background:#f2f3f8;
+  background:#ffffff;
 }
 
 .compact-card__copy{
