@@ -193,7 +193,7 @@ h1,h2,h3{
 }
 
 .btn--primary{
-  background:var(--blue);
+  background:var(--yellow);
   color:#fff;
   box-shadow:0 10px 20px rgba(66,98,255,.18);
 }
