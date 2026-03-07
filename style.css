@@ -284,7 +284,7 @@ h1,h2,h3{
   font-size:40px;
   line-height:1.03;
   font-weight:700;
-  color:var(--text);
+  color:#24c204;
 }
 
 .hero-list{
