@@ -3,11 +3,22 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Miro Style Guide Landing | Visual Collaboration Workspace</title>
-  <meta name="description" content="Independent quick guide inspired by the visual language of Miro. Explore solutions, resources, key workflows, and provider links in a clean card-based layout." />
+  <title>Miro Style Guide Landing | AI Innovation Workspace</title>
+  <meta
+    name="description"
+    content="Independent quick guide inspired by Miro-style product pages. Explore AI innovation workspace, collaboration flows, formats, integrations, and team workflows in a clean compact layout."
+  />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
+  <div class="announce-bar">
+    <div class="container announce-bar__inner">
+      <p>Canvas 26 registration is open. Get set to transform how your team builds with AI.</p>
+      <a href="#open-provider" class="announce-bar__cta">Save Your Spot</a>
+    </div>
+  </div>
+
   <header class="header">
     <div class="container header__inner">
       <a class="brand" href="index.html" aria-label="Home">
@@ -23,7 +34,7 @@
           <a href="index.html">Home</a>
           <a href="solutions.html">Solutions</a>
           <a href="resources.html">Resources</a>
-          <a href="#features">Features</a>
+          <a href="#workspace">Product</a>
           <a href="#faq">FAQ</a>
         </div>
       </nav>
@@ -33,146 +44,309 @@
         <a class="btn btn--primary" href="#open-provider">Open Provider →</a>
       </div>
 
-      <button class="mobile-toggle" id="mobileToggle" aria-label="Open menu" aria-expanded="false">☰</button>
+      <button
+        class="mobile-toggle"
+        id="mobileToggle"
+        aria-label="Open menu"
+        aria-expanded="false"
+        type="button"
+      >
+        ☰
+      </button>
     </div>
+
     <div class="container mobile-menu" id="mobileMenu">
       <a href="index.html">Home</a>
       <a href="solutions.html">Solutions</a>
       <a href="resources.html">Resources</a>
-      <a href="#features">Features</a>
+      <a href="#workspace">Product</a>
       <a href="#faq">FAQ</a>
     </div>
   </header>
 
   <main>
-    <section class="hero">
-      <div class="container hero__shell">
-        <div class="panel hero__copy">
-          <div class="eyebrow"><span></span> AI innovation workspace look</div>
-          <h1><span class="accent">Miro-Inspired</span> Visual Collaboration, Planning & Team Alignment</h1>
-          <p>Use a board-first workflow to brainstorm ideas, map projects, review plans, and move from rough thinking to real execution. This standalone page follows the clean product-marketing style you requested, with chips and card modules similar to your reference layout.</p>
+    <section class="hero hero--clean">
+      <div class="container hero--clean__wrap">
+        <div class="hero--clean__content">
+          <div class="eyebrow"><span></span> AI innovation workspace</div>
+          <h1>Get from brainstorm to breakthrough with Miro</h1>
+          <p>
+            Collaborative AI workflows that help your team build the right thing, faster.
+            Explore a compact product-style layout inspired by modern Miro sections.
+          </p>
+
           <div class="hero__actions">
-            <a class="btn btn--primary" href="#open-provider">Start Exploring</a>
-            <a class="btn btn--secondary" href="resources.html">View Resources</a>
+            <a class="btn btn--primary" id="open-provider" href="#">Start creating for free</a>
+            <a class="btn btn--secondary" href="resources.html">View resources</a>
           </div>
-
-          <div class="chips-card">
-            <div class="chips-card__title">Top use cases</div>
-            <div class="chips">
-              <div class="chip">
-                <div class="chip__icon">✓</div>
-                <div><strong>Brainstorming</strong><span>Capture ideas faster</span></div>
-              </div>
-              <div class="chip">
-                <div class="chip__icon">✓</div>
-                <div><strong>Roadmaps</strong><span>Align teams visually</span></div>
-              </div>
-              <div class="chip">
-                <div class="chip__icon">✓</div>
-                <div><strong>Workshops</strong><span>Run sessions clearly</span></div>
-              </div>
-              <div class="chip">
-                <div class="chip__icon">✓</div>
-                <div><strong>Research</strong><span>Synthesize feedback</span></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <aside class="panel board">
-          <div class="board__art">
-            <div class="board__toolbar">
-              <div class="board__crumbs">
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-              </div>
-              <div class="board__label">Product brief board</div>
-            </div>
-            <div class="canvas">
-              <div class="note note--yellow">Sprint ideas</div>
-              <div class="note note--blue">Research cluster</div>
-              <div class="note note--pink">Design review</div>
-              <div class="card-mini">
-                <h4>Launch summary</h4>
-                <p>Goals, blockers, owners, and next actions collected in one visual space.</p>
-              </div>
-              <div class="line line--1"></div>
-              <div class="line line--2"></div>
-            </div>
-          </div>
-
-          <div class="quick-tip">
-            <h3>Quick tip</h3>
-            <p>Start with one board for discovery, then split the work into solution tracks, docs, workflows, and team handoff cards.</p>
-          </div>
-
-          <a class="provider-cta" id="open-provider" href="#">Open Provider →</a>
-          <div class="small muted">Signup, account access, and product actions happen on the provider website.</div>
-        </aside>
-      </div>
-    </section>
-
-    <section class="section" id="features">
-      <div class="container">
-        <div class="eyebrow"><span></span> Trusted workflow style</div>
-        <h2 class="h2">A product page structure that feels close to Miro</h2>
-        <p class="lead">The visual system here uses a Miro-like blue, a soft workspace background, rounded containers, bold display headings, and modular cards for solutions, resources, and workflow steps.</p>
-        <div class="logo-row" aria-label="Highlight row">
-          <div class="logo-pill">Brainstorm</div>
-          <div class="logo-pill">Diagram</div>
-          <div class="logo-pill">Research</div>
-          <div class="logo-pill">Planning</div>
-          <div class="logo-pill">Workshops</div>
-        </div>
-        <div class="feature-grid">
-          <article class="feature-card">
-            <div class="feature-num">1</div>
-            <h3>Capture input</h3>
-            <p>Add sticky-note style ideas, collect raw thoughts, and group themes before you decide what moves forward.</p>
-          </article>
-          <article class="feature-card">
-            <div class="feature-num">2</div>
-            <h3>Map direction</h3>
-            <p>Use board sections, linked cards, and structured modules to turn messy discussion into a clear operating plan.</p>
-          </article>
-          <article class="feature-card">
-            <div class="feature-num">3</div>
-            <h3>Deliver outcomes</h3>
-            <p>Connect planning, review, and handoff into one visual system so teams can move faster with better alignment.</p>
-          </article>
         </div>
       </div>
     </section>
 
-    <section class="team-section">
+    <section class="section workspace" id="workspace">
       <div class="container">
-        <div class="team-card-wrap">
+        <div class="workspace-panel">
+          <div class="workspace-head">
+            <div class="workspace-label">
+              <span>Product</span>
+              <div class="workspace-line"></div>
+            </div>
+            <button class="workspace-close" type="button" aria-label="Close section">×</button>
+          </div>
+
+          <h2 class="workspace-title">AI Innovation Workspace</h2>
+          <p class="workspace-sub">Unlock the power of Miro's Platform</p>
+
+          <div class="workspace-list">
+            <a href="solutions.html" class="workspace-item">
+              <div class="workspace-item__icon workspace-item__icon--ai">✦</div>
+              <div class="workspace-item__copy">
+                <h3>AI</h3>
+                <p>Accelerate your workflows with AI</p>
+              </div>
+              <span class="workspace-item__arrow">›</span>
+            </a>
+
+            <a href="solutions.html" class="workspace-item">
+              <div class="workspace-item__icon workspace-item__icon--green">⌘</div>
+              <div class="workspace-item__copy">
+                <h3>Product Acceleration</h3>
+                <p>Build the right thing faster</p>
+              </div>
+              <span class="workspace-item__arrow">›</span>
+            </a>
+
+            <a href="solutions.html" class="workspace-item">
+              <div class="workspace-item__icon workspace-item__icon--orange">✓</div>
+              <div class="workspace-item__copy">
+                <h3>Business Acceleration</h3>
+                <p>Drive transformation with clarity and confidence</p>
+              </div>
+              <span class="workspace-item__arrow">›</span>
+            </a>
+
+            <a href="solutions.html" class="workspace-item">
+              <div class="workspace-item__icon workspace-item__icon--pink">▤</div>
+              <div class="workspace-item__copy">
+                <h3>Platform</h3>
+                <p>Configure Miro for your company's needs</p>
+              </div>
+              <span class="workspace-item__arrow">›</span>
+            </a>
+          </div>
+
+          <div class="workspace-footer">
+            <a class="workspace-footer__cta" href="#open-provider">Start creating for free</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section workflow-wrapper">
+      <div class="container workflow-grid">
+        <div class="workflow-left">
+          <div class="eyebrow"><span></span> Trusted workflow style</div>
+          <h2 class="h2">A product page structure that feels close to Miro</h2>
+          <p class="lead">
+            The visual system here uses a Miro-like blue, a soft workspace background,
+            rounded containers, bold headings, and modular cards for solutions,
+            resources, and workflow steps.
+          </p>
+
+          <div class="logo-row" aria-label="Highlight row">
+            <div class="logo-pill">Brainstorm</div>
+            <div class="logo-pill">Diagram</div>
+            <div class="logo-pill">Research</div>
+            <div class="logo-pill">Planning</div>
+            <div class="logo-pill">Workshops</div>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card">
+              <div class="feature-num">1</div>
+              <h3>Capture input</h3>
+              <p>Add ideas, notes, and themes before deciding what moves forward.</p>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-num">2</div>
+              <h3>Map direction</h3>
+              <p>Turn discussion into a clear operating plan with board sections and linked work.</p>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-num">3</div>
+              <h3>Deliver outcomes</h3>
+              <p>Connect planning, review, and handoff so teams move faster with alignment.</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="workflow-right">
           <div class="team-card">
             <div class="team-card__top"></div>
+
             <div class="team-card__body">
-              <h2>Which team are you part of?</h2>
+              <h3>Which team are you part of?</h3>
 
               <div class="team-grid">
                 <a href="solutions.html" class="team-box">
-                  <span>Research and<br />Development</span>
+                  Research and <br /> Development
                 </a>
 
                 <a href="solutions.html" class="team-box team-box--highlight">
-                  <span>Sales</span>
+                  Sales
                 </a>
 
                 <a href="solutions.html" class="team-box">
-                  <span>Marketing</span>
+                  Marketing
                 </a>
 
                 <a href="solutions.html" class="team-box">
-                  <span>Consulting</span>
+                  Consulting
                 </a>
               </div>
-
-              <p class="team-note">Choose a team flow to explore collaboration patterns, templates, and workflows inspired by modern visual workspaces.</p>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section ai-canvas">
+      <div class="container">
+        <div class="ai-canvas__card">
+          <div class="ai-canvas__badge">AI + Team collaboration</div>
+          <h2>Bring <em>TEAM</em> & artificial intelligence together</h2>
+
+          <div class="ai-canvas__top">AI CANVAS</div>
+
+          <div class="ai-canvas__grid">
+            <article class="ai-canvas__box">
+              <h3>Sidekicks</h3>
+              <p>Chat-based AI agents to collaborate with on the canvas.</p>
+            </article>
+
+            <article class="ai-canvas__box">
+              <h3>Flows</h3>
+              <p>Streamline processes with visual AI workflows.</p>
+            </article>
+
+            <article class="ai-canvas__box">
+              <h3>Knowledge</h3>
+              <p>Bring in enterprise knowledge to make better decisions.</p>
+            </article>
+          </div>
+
+          <div class="ai-canvas__trust">
+            <strong>AI Trust</strong>
+            <span>Security</span>
+            <span>Governance</span>
+            <span>Privacy</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section compact-duo">
+      <div class="container compact-duo__grid">
+        <article class="compact-card">
+          <div class="compact-card__visual compact-card__visual--formats">
+            <div class="formats-hero">
+              <h2>Move work forward with <em>FORMATS</em> you know</h2>
+
+              <div class="formats-icons">
+                <div class="format-box">
+                  <span class="format-icon format-icon--purple">▣</span>
+                  <strong>Prototype</strong>
+                </div>
+                <div class="format-box">
+                  <span class="format-icon format-icon--red">▶</span>
+                  <strong>Slides</strong>
+                </div>
+                <div class="format-box">
+                  <span class="format-icon format-icon--blue">▤</span>
+                  <strong>Doc</strong>
+                </div>
+                <div class="format-box">
+                  <span class="format-icon format-icon--green">▦</span>
+                  <strong>Table</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="compact-card__copy">
+            <h3>Formats</h3>
+            <p>
+              Move quickly from ideas to structured plans and work with Docs, Tables,
+              Slides, Diagrams and more.
+            </p>
+            <a href="resources.html" class="dark-btn">Learn more</a>
+          </div>
+        </article>
+
+        <article class="compact-card">
+          <div class="compact-card__visual compact-card__visual--integrations">
+            <div class="integrations-hero">
+              <h2>Connect Miro to <strong>250+</strong> of your top tools</h2>
+
+              <div class="tool-grid">
+                <div class="tool-chip">GH</div>
+                <div class="tool-chip">J</div>
+                <div class="tool-chip">C</div>
+                <div class="tool-chip">T</div>
+                <div class="tool-chip">A</div>
+                <div class="tool-chip">MS</div>
+                <div class="tool-chip">L</div>
+                <div class="tool-chip">F</div>
+                <div class="tool-chip">M</div>
+                <div class="tool-chip">Z</div>
+                <div class="tool-chip">S</div>
+                <div class="tool-chip">N</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="compact-card__copy">
+            <h3>Integrations</h3>
+            <p>
+              Connects with 250+ apps so teams stay aligned and productive in one scalable,
+              secure workspace.
+            </p>
+            <a href="resources.html" class="dark-btn">Learn more</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section faq" id="faq">
+      <div class="container">
+        <div class="eyebrow"><span></span> FAQ</div>
+        <h2 class="h2">Common questions</h2>
+
+        <div class="faq-list">
+          <div class="faq-item">
+            <h3>Is this the official provider website?</h3>
+            <p>
+              No. This is an independent guide page. Product actions, accounts, and
+              final plan details are handled on the provider website.
+            </p>
+          </div>
+
+          <div class="faq-item">
+            <h3>What does this lander focus on?</h3>
+            <p>
+              It highlights AI workspace positioning, collaboration flows, formats,
+              integrations, and team-oriented product discovery in a compact layout.
+            </p>
+          </div>
+
+          <div class="faq-item">
+            <h3>Where should I add my final CTA URL?</h3>
+            <p>
+              Replace the placeholder links like <strong>#</strong> with your affiliate,
+              provider, or destination URLs.
+            </p>
           </div>
         </div>
       </div>
@@ -181,12 +355,24 @@
 
   <footer class="footer">
     <div class="container footer__shell">
-      <p>Affiliate disclosure: This website contains affiliate links. If you click a link and sign up or purchase, we may earn a commission at no additional cost to you. We do not claim to represent any provider officially. Product names, logos, and trademarks are the property of their respective owners and are used only for identification and comparison. Always verify features, pricing, and terms on the provider’s website before making a decision.</p>
-      <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms & Condition</a></p>
+      <p>
+        Affiliate disclosure: This website contains affiliate links. If you click a
+        link and sign up or purchase, we may earn a commission at no additional cost
+        to you. We do not claim to represent any provider officially. Product names,
+        logos, and trademarks are the property of their respective owners and are used
+        only for identification and comparison. Always verify features, pricing, and
+        terms on the provider’s website before making a decision.
+      </p>
+
+      <p>
+        <a href="privacy.html">Privacy Policy</a> |
+        <a href="terms.html">Terms & Conditions</a>
+      </p>
     </div>
   </footer>
 
   <a class="sticky-cta" href="#open-provider">Start Exploring →</a>
+
   <script src="script.js"></script>
 </body>
 </html>
