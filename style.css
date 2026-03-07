@@ -88,8 +88,9 @@ h1,h2,h3{
 
 .announce-bar__inner p{
   margin:0;
-  font-size:14px;
-  font-weight:500;
+ font-size: 20px;
+    font-weight: 600;
+      color: #0ae8b1;
 }
 
 .announce-bar__cta{
