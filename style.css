@@ -614,6 +614,7 @@ h1,h2,h3{
   flex-wrap:wrap;
   gap:8px;
   margin-top:14px;
+      padding-bottom: 20px;
 }
 
 .logo-pill{
@@ -771,8 +772,8 @@ h1,h2,h3{
 }
 
 .format-icon{
-  width:42px;
-  height:42px;
+  width: 34px;
+    height: 34px;
   border-radius:12px;
   display:grid;
   place-items:center;
