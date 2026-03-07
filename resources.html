@@ -4,17 +4,49 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Resources | Miro Style Guide</title>
-  <meta name="description" content="Resources page inspired by Miro-style product marketing, with guides, templates, product updates, customer stories, and learning materials." />
+  <meta
+    name="description"
+    content="Resources page inspired by a Miro-style layout with guides, templates, updates, stories, and learning content."
+  />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="header">
     <div class="container header__inner">
-      <a class="brand" href="index.html"><span class="brand__mark">M</span><span class="brand__text"><span class="brand__title">Miro Style Guide</span><span class="brand__sub">independent page</span></span></a>
-      <nav class="nav"><div class="nav__group"><a href="index.html">Home</a><a href="solutions.html">Solutions</a><a href="resources.html">Resources</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></div></nav>
-      <div class="header__cta"><a class="btn btn--secondary" href="solutions.html">Open Solutions</a><a class="btn btn--primary" href="#">Open Provider →</a></div>
-      <button class="mobile-toggle" id="mobileToggle" aria-label="Open menu" aria-expanded="false">☰</button>
+      <a class="brand" href="index.html" aria-label="Home">
+        <span class="brand__mark">M</span>
+        <span class="brand__text">
+          <span class="brand__title">Miro Style Guide</span>
+          <span class="brand__sub">independent page</span>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <div class="nav__group">
+          <a href="index.html">Home</a>
+          <a href="solutions.html">Solutions</a>
+          <a href="resources.html">Resources</a>
+          <a href="privacy.html">Privacy</a>
+          <a href="terms.html">Terms</a>
+        </div>
+      </nav>
+
+      <div class="header__cta">
+        <a class="btn btn--secondary" href="solutions.html">Open Solutions</a>
+        <a class="btn btn--primary" href="#">Open Provider →</a>
+      </div>
+
+      <button
+        class="mobile-toggle"
+        id="mobileToggle"
+        aria-label="Open menu"
+        aria-expanded="false"
+        type="button"
+      >
+        ☰
+      </button>
     </div>
+
     <div class="container mobile-menu" id="mobileMenu">
       <a href="index.html">Home</a>
       <a href="solutions.html">Solutions</a>
@@ -24,82 +56,216 @@
     </div>
   </header>
 
-  <main class="section">
-    <div class="container">
-      <div class="eyebrow"><span></span> Resources</div>
-      <h1 class="h2">Guides, templates, updates, and learning content</h1>
-      <p class="lead">This separate resources page follows the content grouping visible on Miro: blog-style articles, workflow templates, learning support, product news, and customer stories.</p>
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <div class="page-hero__card">
+          <div class="eyebrow"><span></span> Resources</div>
+          <h1 class="page-title">Guides, templates, updates, and learning content</h1>
+          <p class="page-lead">
+            Explore a compact resource hub with board guides, reusable templates,
+            workflow articles, product updates, and learning material grouped in
+            a cleaner navigation-first layout.
+          </p>
 
-      <div class="card-grid">
-        <article class="article">
-          <span class="article__tag">Guide</span>
-          <h3>How to structure an effective workshop board</h3>
-          <p>Build a clear agenda, break the board into stages, collect input, and close with decisions and action items.</p>
-          <a href="#">Read guide →</a>
-        </article>
-        <article class="article">
-          <span class="article__tag">Template</span>
-          <h3>Product brief starter board</h3>
-          <p>Use a reusable layout for goals, research inputs, dependencies, release timing, and stakeholder review.</p>
-          <a href="#">Open template →</a>
-        </article>
-        <article class="article">
-          <span class="article__tag">Update</span>
-          <h3>What’s new in collaborative planning</h3>
-          <p>Highlight new workflow blocks, presentation modules, smarter board organization, and clearer review patterns.</p>
-          <a href="#">See updates →</a>
-        </article>
-        <article class="article">
-          <span class="article__tag">Story</span>
-          <h3>How teams cut planning friction</h3>
-          <p>Show how a visual-first process reduces context loss between brainstorming, review, and handoff.</p>
-          <a href="#">Read story →</a>
-        </article>
-        <article class="article">
-          <span class="article__tag">Learning</span>
-          <h3>Board facilitation quick tips</h3>
-          <p>Share a concise guide for opening sessions, setting expectations, grouping ideas, and keeping momentum high.</p>
-          <a href="#">Start learning →</a>
-        </article>
-        <article class="article">
-          <span class="article__tag">Research</span>
-          <h3>Turn raw notes into clear themes</h3>
-          <p>Cluster findings, tag repeated pain points, summarize patterns, and convert discussion into practical insights.</p>
-          <a href="#">Explore method →</a>
-        </article>
+          <div class="resource-pills">
+            <span class="resource-pill">Guides</span>
+            <span class="resource-pill">Templates</span>
+            <span class="resource-pill">Stories</span>
+            <span class="resource-pill">Updates</span>
+            <span class="resource-pill">Learning</span>
+          </div>
+        </div>
       </div>
+    </section>
 
-      <section class="section">
-        <div class="split">
-          <article class="tile tile--blue">
-            <div class="eyebrow"><span></span> Support & learning</div>
-            <h3>Help content that is easy to scan</h3>
-            <p>Use card modules to show academy links, help center style pages, event blocks, and best-practice tutorials.</p>
-            <div class="list">
-              <div class="list__item"><div class="list__icon">?</div><div><strong>Help articles</strong><span>Answer setup questions, workflow issues, and board organization topics.</span></div></div>
-              <div class="list__item"><div class="list__icon">▶</div><div><strong>Video sessions</strong><span>Highlight webinars, demos, tutorials, and event-style learning content.</span></div></div>
-              <div class="list__item"><div class="list__icon">★</div><div><strong>Community picks</strong><span>Feature popular workflows and repeatable team collaboration patterns.</span></div></div>
+    <section class="section section--tight">
+      <div class="container">
+        <div class="featured-grid">
+          <article class="feature-panel feature-panel--blue">
+            <div class="eyebrow"><span></span> Featured guide</div>
+            <h2>Build workshop boards that are easier to scan</h2>
+            <p>
+              Create clearer workshop stages, group activities by flow, and use
+              reusable sections for agendas, input, prioritization, and wrap-up.
+            </p>
+
+            <div class="mini-list">
+              <div class="mini-list__item">
+                <strong>Clear session structure</strong>
+                <span>Open, explore, decide, and recap in one board.</span>
+              </div>
+              <div class="mini-list__item">
+                <strong>Reusable templates</strong>
+                <span>Keep your best meeting setup ready for future sessions.</span>
+              </div>
+              <div class="mini-list__item">
+                <strong>Better collaboration</strong>
+                <span>Help teams move through activities with less confusion.</span>
+              </div>
             </div>
           </article>
-          <article class="tile tile--yellow">
-            <div class="eyebrow"><span></span> Featured stack</div>
-            <h3>Content buckets for stronger navigation</h3>
-            <p>Separate resources into guides, templates, updates, stories, and support so users do not get lost in one long page.</p>
-            <div class="logo-row" style="grid-template-columns:repeat(2,minmax(0,1fr));margin-top:8px;">
-              <div class="logo-pill">Guides</div>
-              <div class="logo-pill">Templates</div>
-              <div class="logo-pill">Updates</div>
-              <div class="logo-pill">Stories</div>
+
+          <article class="feature-panel feature-panel--yellow">
+            <div class="eyebrow"><span></span> Resource groups</div>
+            <h2>Content buckets for faster discovery</h2>
+            <p>
+              Organize content into templates, updates, help, stories, and
+              workflow methods so users can find the right material faster.
+            </p>
+
+            <div class="pill-grid">
+              <div class="pill-card">Templates</div>
+              <div class="pill-card">Guides</div>
+              <div class="pill-card">Academy</div>
+              <div class="pill-card">Stories</div>
+              <div class="pill-card">Updates</div>
+              <div class="pill-card">Support</div>
             </div>
           </article>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="container">
+        <div class="section-head">
+          <div class="eyebrow"><span></span> Popular resources</div>
+          <h2 class="section-title">Start with the most useful content</h2>
+        </div>
+
+        <div class="card-grid card-grid--3">
+          <article class="article-card">
+            <span class="article-tag">Guide</span>
+            <h3>How to structure an effective workshop board</h3>
+            <p>
+              Build a clear agenda, split the board into stages, collect input,
+              and finish with action items and decisions.
+            </p>
+            <a href="#">Read guide →</a>
+          </article>
+
+          <article class="article-card">
+            <span class="article-tag">Template</span>
+            <h3>Product brief starter board</h3>
+            <p>
+              Use a reusable board for goals, research inputs, dependencies,
+              release timing, and stakeholder review.
+            </p>
+            <a href="#">Open template →</a>
+          </article>
+
+          <article class="article-card">
+            <span class="article-tag">Update</span>
+            <h3>What’s new in collaborative planning</h3>
+            <p>
+              Highlight smarter board organization, reusable work blocks, and
+              clearer planning flows.
+            </p>
+            <a href="#">See updates →</a>
+          </article>
+
+          <article class="article-card">
+            <span class="article-tag">Story</span>
+            <h3>How teams reduce planning friction</h3>
+            <p>
+              Show how a visual-first workflow cuts context loss between idea
+              capture, review, and handoff.
+            </p>
+            <a href="#">Read story →</a>
+          </article>
+
+          <article class="article-card">
+            <span class="article-tag">Learning</span>
+            <h3>Board facilitation quick tips</h3>
+            <p>
+              Open sessions better, set expectations faster, and keep momentum
+              high through the full workshop.
+            </p>
+            <a href="#">Start learning →</a>
+          </article>
+
+          <article class="article-card">
+            <span class="article-tag">Research</span>
+            <h3>Turn raw notes into clear themes</h3>
+            <p>
+              Cluster findings, tag repeated pain points, summarize patterns,
+              and convert discussion into practical insight.
+            </p>
+            <a href="#">Explore method →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="container">
+        <div class="split-box">
+          <article class="support-box">
+            <div class="eyebrow"><span></span> Support & learning</div>
+            <h2>Help content that is easy to scan</h2>
+            <p>
+              Use compact cards for help articles, event blocks, academy links,
+              tutorials, and board best practices.
+            </p>
+
+            <div class="support-list">
+              <div class="support-list__item">
+                <div class="support-icon">?</div>
+                <div>
+                  <strong>Help articles</strong>
+                  <span>Answer setup questions, board organization issues, and workflow basics.</span>
+                </div>
+              </div>
+
+              <div class="support-list__item">
+                <div class="support-icon">▶</div>
+                <div>
+                  <strong>Video sessions</strong>
+                  <span>Feature webinars, demos, product tours, and how-to lessons.</span>
+                </div>
+              </div>
+
+              <div class="support-list__item">
+                <div class="support-icon">★</div>
+                <div>
+                  <strong>Community picks</strong>
+                  <span>Show popular boards, repeatable workflows, and favorite templates.</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="highlight-box">
+            <div class="eyebrow"><span></span> Quick access</div>
+            <h2>Shortcut into the right resource type</h2>
+            <p>
+              Let users jump directly into templates, guides, updates, and
+              stories without scrolling through one long mixed page.
+            </p>
+
+            <div class="shortcut-grid">
+              <a href="#" class="shortcut-card">Open guides</a>
+              <a href="#" class="shortcut-card">Browse templates</a>
+              <a href="#" class="shortcut-card">Product updates</a>
+              <a href="#" class="shortcut-card">Customer stories</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
   </main>
 
-   <footer class="footer">
+  <footer class="footer">
     <div class="container footer__shell">
-          <p>Affiliate disclosure: This website contains affiliate links. If you click a link and sign up or purchase, we may earn a commission at no additional cost to you. We do not claim to represent any provider officially. Product names, logos, and trademarks are the property of their respective owners and are used only for identification and comparison. Always verify features, pricing, and terms on the provider’s website before making a decision.</p>
+      <p>
+        Affiliate disclosure: This website contains affiliate links. If you click a
+        link and sign up or purchase, we may earn a commission at no additional cost
+        to you. We do not claim to represent any provider officially. Product names,
+        logos, and trademarks are the property of their respective owners and are used
+        only for identification and comparison. Always verify features, pricing, and
+        terms on the provider’s website before making a decision.
+      </p>
     </div>
   </footer>
 
