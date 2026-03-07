@@ -340,7 +340,7 @@ h1,h2,h3{
 
 .duo-panels{
   padding-top:10px;
-  padding-bottom:10px;
+      padding-bottom: 85px;
 }
 
 .duo-panels__grid{
