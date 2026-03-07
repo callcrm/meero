@@ -494,7 +494,7 @@ h1,h2,h3{
   min-height:38px;
   padding:0 14px;
   border-radius:12px;
-  background:#11131a;
+  background:var(--yellow);
   color: #1a1a1a;
     font-size: 18px;
     font-weight: 700;
