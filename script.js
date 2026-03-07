@@ -1,8 +1,10 @@
-const toggle = document.getElementById('mobileToggle');
-const menu = document.getElementById('mobileMenu');
-if (toggle && menu) {
-  toggle.addEventListener('click', () => {
-    const isOpen = menu.classList.toggle('open');
-    toggle.setAttribute('aria-expanded', String(isOpen));
+const mobileToggle = document.getElementById("mobileToggle");
+const mobileMenu = document.getElementById("mobileMenu");
+
+if (mobileToggle && mobileMenu) {
+  mobileToggle.addEventListener("click", () => {
+    const isOpen = mobileToggle.getAttribute("aria-expanded") === "true";
+    mobileToggle.setAttribute("aria-expanded", String(!isOpen));
+    mobileMenu.classList.toggle("is-open");
   });
 }
