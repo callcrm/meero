@@ -982,3 +982,238 @@ h1,h2,h3{
     text-align:center;
   }
 }
+
+/* ===== LAST SECTION ONLY ===== */
+.workflow-wrapper{
+  padding: 28px 0 40px;
+}
+
+.tools-showcase{
+  background: #ffffff;
+  border: 1px solid #e6e9f2;
+  border-radius: 24px;
+  padding: 22px;
+  box-shadow: 0 14px 34px rgba(17, 24, 39, 0.05);
+}
+
+.tools-showcase__head{
+  max-width: 760px;
+  margin-bottom: 18px;
+}
+
+.tools-showcase__head h2{
+  margin: 10px 0 8px;
+  font-size: 32px;
+  line-height: 1.15;
+  color: #111827;
+}
+
+.tools-showcase__head p{
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #667085;
+}
+
+.tools-grid{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.tool-card{
+  display: block;
+  text-decoration: none;
+  background: #f3f4f8;
+  border: 1px solid #e5e7ef;
+  border-radius: 18px;
+  padding: 18px;
+  position: relative;
+  overflow: hidden;
+  transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease, background .22s ease;
+}
+
+.tool-card::before{
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 4px;
+  background: linear-gradient(90deg, #3b82f6 0%, #facc15 32%, #22c55e 66%, #ef4444 100%);
+  opacity: 0;
+  transition: opacity .22s ease;
+}
+
+.tool-card:hover{
+  transform: translateY(-3px);
+  background: #ffffff;
+  border-color: #d7ddea;
+  box-shadow: 0 14px 28px rgba(17, 24, 39, 0.08);
+}
+
+.tool-card:hover::before{
+  opacity: 1;
+}
+
+.tool-card h3{
+  margin: 0 0 8px;
+  font-size: 19px;
+  line-height: 1.28;
+  color: #111827;
+}
+
+.tool-card p{
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.65;
+  color: #6b7280;
+}
+
+.tool-card__tag{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 30px;
+  padding: 0 12px;
+  border-radius: 999px;
+  background: #fff4cf;
+  color: #8a6200;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.tool-card--featured{
+  background: linear-gradient(135deg, #eef5ff 0%, #ffffff 100%);
+  border-color: #cfe1ff;
+}
+
+.tool-card--featured::before{
+  opacity: 1;
+}
+
+/* ===== STICKY BOTTOM BAR ONLY ===== */
+body{
+  padding-bottom: 96px;
+}
+
+.sticky-bar{
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  padding: 10px 14px 14px;
+}
+
+.sticky-bar__inner{
+  max-width: 1450px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  background: rgba(255,255,255,.94);
+  border: 1px solid #dbe3f1;
+  border-radius: 22px;
+  padding: 14px 18px;
+  box-shadow: 0 20px 40px rgba(17, 24, 39, 0.14);
+  backdrop-filter: blur(10px);
+}
+
+.sticky-bar__chips{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.sticky-chip{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background: #facc15;
+  color: #111827;
+  border-radius: 14px;
+  padding: 12px 18px;
+  font-size: 15px;
+  font-weight: 800;
+  white-space: nowrap;
+  box-shadow: 0 8px 20px rgba(250, 204, 21, 0.20);
+}
+
+.sticky-bar__cta{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  min-height: 54px;
+  padding: 0 26px;
+  border-radius: 18px;
+  white-space: nowrap;
+  font-size: 16px;
+  font-weight: 800;
+  color: #ffffff;
+  background: linear-gradient(135deg, #1fb8ff 0%, #3159ff 100%);
+  box-shadow: 0 14px 28px rgba(49, 89, 255, 0.28);
+}
+
+@media (max-width: 767px){
+  .workflow-wrapper{
+    padding: 20px 0 28px;
+  }
+
+  .tools-showcase{
+    padding: 16px;
+    border-radius: 18px;
+  }
+
+  .tools-showcase__head h2{
+    font-size: 24px;
+  }
+
+  .tools-grid{
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .tool-card{
+    padding: 16px;
+    border-radius: 16px;
+  }
+
+  body{
+    padding-bottom: 132px;
+  }
+
+  .sticky-bar{
+    padding: 10px 10px 12px;
+  }
+
+  .sticky-bar__inner{
+    flex-direction: column;
+    align-items: stretch;
+    padding: 12px;
+    border-radius: 18px;
+  }
+
+  .sticky-bar__chips{
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 8px;
+    padding-bottom: 2px;
+  }
+
+  .sticky-chip{
+    padding: 10px 14px;
+    font-size: 14px;
+    border-radius: 12px;
+  }
+
+  .sticky-bar__cta{
+    width: 100%;
+    min-height: 50px;
+    border-radius: 14px;
+    font-size: 15px;
+  }
+}
