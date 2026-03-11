@@ -1031,7 +1031,7 @@ h1,h2,h3{
   position: relative;
   overflow: hidden;
   transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease, background .22s ease;
-      height: 92px;
+      height: 60px;
 }
 
 .tool-card::before{
@@ -1057,7 +1057,7 @@ h1,h2,h3{
 
 .tool-card h3{
   margin: 0 0 8px;
-  font-size: 19px;
+     font-size: 15px;
   line-height: 1.28;
   color: #111827;
 }
