@@ -1031,6 +1031,7 @@ h1,h2,h3{
   position: relative;
   overflow: hidden;
   transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease, background .22s ease;
+      height: 92px;
 }
 
 .tool-card::before{
