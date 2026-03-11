@@ -611,20 +611,20 @@ h1,h2,h3{
 }
 
 .logo-row{
-  display:flex;
-  flex-wrap:wrap;
-  gap:8px;
-  margin-top:14px;
-      padding-bottom: 20px;
-      justify-content: space-around;
+ display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    margin-top: 14px;
+    padding-bottom: 20px;
+    justify-content: space-around;
 }
 
 .logo-pill{
-     background: var(--yellow);
+    background: var(--yellow);
     border: 1px solid var(--line);
     padding: 9px 14px;
     border-radius: 12px;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 700;
     color: #1f1f1f;
 }
